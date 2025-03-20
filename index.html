@@ -4,131 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Admin Panel - Jonatan</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <title>Admin Panel</title>
   </head>
   <body>
-    <div class="container">
-      <div class="sidebar">
-        <h1>Dashboard</h1>
-        <div class="logo">
-          <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks Communities</li>
-          </ul>
-        </div>
-        <div class="links">
-          <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-          </ul>
-        </div>
-        <div class="settings"></div>
-      </div>
-      <div class="header">
-        <div class="header-top">
-          <div class="search">
-            <input type="text" />
-          </div>
-          <div class="Account">
-            <p class="lead">Jonatan Borges</p>
-          </div>
-        </div>
-        <div class="header-down">
-          <div class="welcome">
-            <p>Hi There</p>
-            <p>Jonatan Borges (@jnborges)</p>
-          </div>
-          <button class="btn">New</button>
-          <button class="btn">Upload</button>
-          <button class="btn">Share</button>
-        </div>
-      </div>
+    <header class="header"></header>
+    <section class="sidebar">
+      <div class="logo">Dashboard</div>
+      <div class="divider"></div>
+      <a href="#" id="home">Home</a>
+      <a href="#" id="profile">Profile</a>
+      <a href="#" id="msg">Messages</a>
+      <a href="#" id="hsty">History</a>
+      <a href="#" id="task">Tasks</a>
+      <a href="#" id="comm">Communities</a>
+      <div class="divider"></div>
+      <a href="#">Settings</a>
+      <a href="#">Support</a>
+      <a href="#">Privacy</a>
+    </section>
+    <main class="main">
+      <div class="cards" id="card-1">
+        <p class="card-title">Warning</p>
 
-      <div class="main">
-        <div class="projects">
-          <p class="title">Your Projects</p>
-          <div class="card">
-            <p class="card-title">Project Title</p>
-            <p class="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
-              aliquid cupiditate cumque unde neque tempore iste et voluptatibus,
-              non, molestias repellendus omnis sapiente ullam ut.
-            </p>
-          </div>
-          <div class="card">
-            <p class="card-title">Project Title</p>
-            <p class="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
-              aliquid cupiditate cumque unde neque tempore iste et voluptatibus,
-              non, molestias repellendus omnis sapiente ullam ut.
-            </p>
-          </div>
-          <div class="card">
-            <p class="card-title">Project Title</p>
-            <p class="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
-              aliquid cupiditate cumque unde neque tempore iste et voluptatibus,
-              non, molestias repellendus omnis sapiente ullam ut.
-            </p>
-          </div>
-          <div class="card">
-            <p class="card-title">Project Title</p>
-            <p class="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
-              aliquid cupiditate cumque unde neque tempore iste et voluptatibus,
-              non, molestias repellendus omnis sapiente ullam ut.
-            </p>
-          </div>
-          <div class="card">
-            <p class="card-title">Project Title</p>
-            <p class="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
-              aliquid cupiditate cumque unde neque tempore iste et voluptatibus,
-              non, molestias repellendus omnis sapiente ullam ut.
-            </p>
-          </div>
-          <div class="card">
-            <p class="card-title">Project Title</p>
-            <p class="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
-              aliquid cupiditate cumque unde neque tempore iste et voluptatibus,
-              non, molestias repellendus omnis sapiente ullam ut.
-            </p>
-          </div>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          saepe ea sint accusantium maiores asperiores.
+        </p>
+      </div>
+      <div class="card-container">
+        <div class="cards">
+          <p class="card-title">Title</p>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            saepe ea sint accusantium maiores asperiores.
+          </p>
         </div>
-        <div class="Annoucements">
-          <p class="title">Annoucements</p>
-          <div class="card">
-            <p>Site Mainetenance</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-              dolorem. Sed, incidunt. Voluptas, vel magnam.
-            </p>
-            <p>Site Mainetenance</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-              dolorem. Sed, incidunt. Voluptas, vel magnam.
-            </p>
-            <p>Site Mainetenance</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-              dolorem. Sed, incidunt. Voluptas, vel magnam.
-            </p>
-          </div>
+        <div class="cards">
+          <p class="card-title">Title</p>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+            explicabo ab reprehenderit vitae exercitationem tenetur laudantium
+            officia molestias iste atque magni numquam! Mollitia, quia illo.
+          </p>
         </div>
-        <div class="Trending">
-          <p class="title">Trending</p>
-          <div class="card">
-            <p class="trending-title">@Tegan</p>
-            <p class="trending-title">@Tegan</p>
-            <p class="trending-title">@Tegan</p>
-          </div>
+        <div class="cards">
+          <p class="card-title">Title</p>
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+            voluptas possimus enim?
+          </p>
+        </div>
+        <div class="cards">
+          <p class="card-title">Title</p>
+          <p class="card-text">
+            Consectetur adipisicing elit. Nihil, explicabo ab reprehenderit
+            vitae exercitationem tenetur laudantium officia molestias iste atque
+            magni numquam! Mollitia, quia illo.
+          </p>
+        </div>
+        <div class="cards">
+          <p class="card-title">Title</p>
+          <p class="card-text">
+            Explicabo ab reprehenderit vitae exercitationem tenetur laudantium
+            officia molestias iste atque magni numquam! Mollitia, quia illo.
+          </p>
+        </div>
+        <div class="cards">
+          <p class="card-title">Title</p>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+            explicabo ab reprehenderit vitae exercitationem tenetur laudantium
+            officia molestias.
+          </p>
+        </div>
+        <div class="cards">
+          <p class="card-title">Title</p>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+            explicabo ab reprehenderit vitae exercitationem tenetur laudantium
+            Mollitia, quia illo.
+          </p>
         </div>
       </div>
-    </div>
+      <div class="announ"></div>
+      <div class="trending"></div>
+    </main>
   </body>
 </html>
